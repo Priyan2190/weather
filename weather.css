@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(208, 166, 247);
+}
+
+header {
+    background-color: blueviolet;
+    overflow: hidden;
+    height: 100px;
+
+    box-shadow: 5px 3px rgb(82, 2, 102);
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    color: #33104b;
+    font-size: 30px;
+    font-weight: bolder;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    text-shadow: #aa26f1 2px 2px;
+
+
+}
+
+.nav-bar {
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+
+}
+
+.main-container {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(217, 187, 234);
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 3px rgb(82, 2, 102);
+    align-items: center;
+    margin: 100px auto;
+}
+
+.list {
+    margin-left: -20px;
+    font-size: large;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgb(82, 2, 102) 2px 2px;
+
+
+}
+
+.card-header {
+    font-style: italic;
+}
+
+button {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 2px 1px;
+
+
+}
+
+@media only sreen and (max-width:400px){
+ .header,.main-container {
+width: 90%;
+ }
+ .nav-bar {
+    font-size: smaller;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .main-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+
+
+
+
+}

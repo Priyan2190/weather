@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">WEATHER APP </div>
+    </header>
+    <div class="main-container">
+        <div class="input" >
+            <input type="text" id="cityName" placeholder="Search City">
+        </div>
+        <button type="button"  id="btnop" class="btn">Search </button>
+        <div id="weather-output" class="main-box">
+            <div class="card-deck text center">
+                <div class="card shadow-sm" id="weather">
+                    <div class="card-header">
+                        <h3 id="city-name" class="font-weight-normal">----</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="icon"> </div>
+                        <h1 id="weather-type" class="card-title">----</h1>
+                        <ul class="list">
+                            <li>Temp: <span id="temp">---</span>°</li>
+                            <li>Min Temp: <span id="min-temp">---</span>°</li>
+                            <li>Max Temp: <span id="max-temp">---</span>°</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+                <script src="weather.js"></script>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
+<!-- <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="icons"> -->
